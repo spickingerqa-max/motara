@@ -1,0 +1,47 @@
+export const colors = {
+  bg: '#F9FAFB',
+  surface: '#FFFFFF',
+  elevated: '#F1F2F4',
+  border: '#E5E7EB',
+  t1: '#111827',
+  t2: '#374151',
+  t3: '#6B7280',
+  t4: '#9CA3B8',
+  blue: '#2563EB',
+  blueLight: '#EFF6FF',
+  blueBorder: '#BFDBFE',
+  green: '#16A34A',
+  greenLight: '#F0FDF4',
+  greenBorder: '#BBF7D0',
+  amber: '#D97706',
+  amberLight: '#FFFBEB',
+  amberBorder: '#FDE68A',
+  red: '#DC2626',
+  redLight: '#FEF2F2',
+  purple: '#7630D9',
+  purpleLight: '#F5F3FF',
+};
+
+export const shadows = {
+  sm: {
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 1 },
+    shadowOpacity: 0.04,
+    shadowRadius: 2,
+    elevation: 1,
+  },
+  md: {
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.06,
+    shadowRadius: 4,
+    elevation: 3,
+  },
+  lg: {
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 4 },
+    shadowOpacity: 0.1,
+    shadowRadius: 12,
+    elevation: 8,
+  },
+};
